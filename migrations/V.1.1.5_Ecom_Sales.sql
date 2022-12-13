@@ -1,3 +1,4 @@
+USE SCHEMA PUBLIC;
 create or replace file format csv_format
   type = csv
   field_delimiter = '|'
